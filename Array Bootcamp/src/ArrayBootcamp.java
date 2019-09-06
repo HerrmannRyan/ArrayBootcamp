@@ -14,7 +14,7 @@ public class ArrayBootcamp
 			}
 
 		public static void displayUsersFavoriteCandy()
-			{
+		{
 				System.out.println("How many favorite candies do you have?");
 				int numberOfFavoriteCandies = userInput.nextInt() + 1;
 				System.out.println("Sweet! You have " + (numberOfFavoriteCandies - 1)
@@ -65,7 +65,7 @@ public class ArrayBootcamp
 						}
 
 					}
-
+				
 				System.out.println("The sum of the even numbers is " + sumOfEvenNumbers
 						+ ", and the sum of the odd numbers is " + sumOfOddNumbers);
 
